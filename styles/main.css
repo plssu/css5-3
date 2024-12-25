@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+aside nav {
+    display: inline-flex;
+    width: 64px;
+    height: 992px;
+    padding: 12px 28px 708px 28px;
+    background-color: #E7EEFF;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+}
+
+.mainNav .searchNav {
+    display: flex;
+    width: 1290px;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchNav > div > input::placeholder {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.search > img {
+    vertical-align: middle;
+}
+
+.search > input {
+    vertical-align: middle;
+    width: 500px;
+    border: none;
+}
+
+
+.support {
+    display: inline-flex;
+    justify-content: left;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.houseOne {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    margin-bottom: 42px;
+}
+
+.imgOne {
+    width: 553px;
+    height: 275px;
+}
+
+.houseOne > div {
+    display: flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 0px 0px 24px 24px;
+    background: #E7EEFF;
+}
+
+.houseTwo {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    margin-bottom: 42px;
+}
+
+.houseTwo > div {
+    display: flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 0px 0px 24px 24px;
+    background: #E7EEFF;
+}
